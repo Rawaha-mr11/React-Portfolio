@@ -2,9 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faJs } from "@fortawesome/free-brands-svg-icons";
 import { SiTailwindcss, SiHtml5 } from "react-icons/si";
-import materialUi from "/assets/images/materialUi.png";
-import msWord from "/assets/images/msWord.png";
-import msExcel from "/assets/images/msExcel.png";
+import materialUi from "src/assets/images/materialUi.png";
+import msWord from "src/assets/images/msWord.png";
+import msExcel from "src/assets/images/msExcel.png";
 
 const Technologies = () => {
   const myTechnologies = [
