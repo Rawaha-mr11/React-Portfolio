@@ -35,15 +35,15 @@ const Contact = () => {
       <section id="Contact" className="w-full p-2 sm:p-4 mb-40">
         <div className="w-full p-2 mt-16 sm:p-4 flex flex-col justify-center items-center">
           <p className="text-text-secondary uppercase text-sm sm:text-base">
-            Portfolio
+            Contact
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-center mt-2 sm:mt-4">
             Ready to Start Your Project?
           </h1>
         </div>
 
-        <div className="w-full p-4 flex justify-center gap-8 flex-wrap">
-          <div className="w-1/3 flex flex-col">
+        <div className="w-full p-4 flex justify-center gap-8 ">
+          <div className="w-1/3 flex flex-col flex-wrap">
             <div className="bg-card-bg p-16">
               <div className="p-4 text-text-secondary hover:text-text-primary border-b-[1.5px] border-card">
                 <div>
