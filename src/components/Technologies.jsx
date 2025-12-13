@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faJs } from "@fortawesome/free-brands-svg-icons";
 import { SiTailwindcss, SiHtml5 } from "react-icons/si";
-import materialUi from "../assets/images/materialUi.png";
+import materialUi from "../assets/images/materialui.png";
 import msWord from "../assets/images/msWord.png";
 import msExcel from "../assets/images/msExcel.png";
 
