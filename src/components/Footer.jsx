@@ -24,8 +24,8 @@ const Footer = () => {
 
   return (
     <>
-      <section>
-        <div className="w-full mt-4 text-xl text-center fill-transparent" style={{ WebkitTextFillColor: 'transparent', WebkitTextStrokeWidth: '0.17px', WebkitTextStrokeColor: 'var(--text-primary)', perspective: "800px" }}><span ref={RotateM} className="inline-block">M</span>uhammad {" "} <span ref={RotateR} className="inline-block">R</span>awaha</div>
+      <section className="py-10">
+        <div className="w-full text-xl text-center fill-transparent" style={{ WebkitTextFillColor: 'transparent', WebkitTextStrokeWidth: '0.17px', WebkitTextStrokeColor: 'var(--text-primary)', perspective: "800px" }}><span ref={RotateM} className="inline-block">M</span>uhammad {" "} <span ref={RotateR} className="inline-block">R</span>awaha</div>
         <div className="w-full p-4 text-center">
          <h3>&copy; 2025 Muhammad Rawaha | All rights reserved</h3>
         </div>

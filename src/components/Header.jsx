@@ -1,8 +1,30 @@
 import React, { useRef, useEffect, useState } from "react";
+import { gsap } from "gsap";
 import Theme from "./Theme";
 import Logo from "../assets/images/logo.png";
 
 const Header = ({ currentTheme, changeTheme }) => {
+  // ================= Header Animation on scrolling ================= //
+  // const headerRef = useRef(null);
+  // const [lastScrollTop, setLastScrollTop] = useState(0);
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollTop = window.scrollY;
+  //     if (!headerRef.current) return;
+
+  //     if (scrollTop > lastScrollTop && scrollTop > 20) {
+  //       gsap.to(headerRef.current, { y: "-90%", duration: 0.5, ease: "power2.out" });
+  //     } else {
+  //       gsap.to(headerRef.current, { y: "0%", duration: 0.5, ease: "power2.out" });
+  //     }
+  //     setLastScrollTop(scrollTop);
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, [lastScrollTop]);
+  // ================================================================ //
+
 
   //================= DropDown Menu ==================//
   const [dropDownMenu, setDropDownMenu] = useState(false);

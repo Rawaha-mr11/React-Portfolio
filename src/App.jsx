@@ -41,18 +41,32 @@ const App = () => {
         effects: true,
       });
     }
+    // gsap.set("#Header", { y: 2 });
+    // ScrollTrigger.create({
+    //   trigger: "#Header",
+    //   start: 0,
+    //   end: "max",
+    //   pin: true,
+    //   pinSpacing: false,
+    // });
+
     return () => {
       if (smoother) smoother.kill();
     };
   }, []);
+
   //========================================================//
 
   //=================== JSX Return ===================//
   return (
     <>
       <div id="smooth-wrapper">
-        <Header currentTheme={currentTheme} changeTheme={changeTheme} />
         <div id="smooth-content">
+          <Header
+            id="Header"
+            currentTheme={currentTheme}
+            changeTheme={changeTheme}
+          />
           <Hero currentTheme={currentTheme} />
           <About currentTheme={currentTheme} />
           <Services currentTheme={currentTheme} />
