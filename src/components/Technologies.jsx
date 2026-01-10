@@ -31,7 +31,7 @@ const Technologies = () => {
           ease: "power2.out",
           scrollTrigger: {
             trigger: el,
-            start: "top 95%",
+            start: "top 97%",
             toggleActions: "play none none reverse",
           },
         }
@@ -116,11 +116,11 @@ const Technologies = () => {
       techIcon: () => (
         <img
           src={materialUi}
-          alt="Material UI"
+          alt="MaterialUI"
           className="w-8 h-8 sm:w-7 sm:h-7 lg:w-8 lg:h-8 object-contain"
         />
       ),
-      techTitle: "Material UI",
+      techTitle: "MaterialUI",
       Purpose: "Front End",
     },
 
@@ -128,11 +128,11 @@ const Technologies = () => {
       techIcon: () => (
         <img
           src={msExcel}
-          alt="Ms Excel"
+          alt="Excel"
           className="w-8 h-8 sm:w-7 sm:h-7 lg:w-8 lg:h-8 object-contain"
         />
       ),
-      techTitle: "MS Excel",
+      techTitle: "Excel",
       Purpose: "Data Entry",
     },
 
@@ -140,11 +140,11 @@ const Technologies = () => {
       techIcon: () => (
         <img
           src={msWord}
-          alt="Ms Word"
+          alt="Word"
           className="w-8 h-8 sm:w-7 sm:h-7 lg:w-8 lg:h-8 object-contain"
         />
       ),
-      techTitle: "MS WORD",
+      techTitle: "WORD",
       Purpose: "Data Entry",
     },
   ];
@@ -167,7 +167,7 @@ const Technologies = () => {
           <div
             key={index}
             ref={scaleOutRef}
-            className="w-44 h-60 bg-card-bg p-6 rounded-full flex flex-col justify-center items-center gap-4 shadow-soft transition-border duration-300 border-[1.2px] border-transparent hover:border-text-primary hover:cursor-text"
+            className="w-36 h-52 bg-card-bg p-6 rounded-full flex flex-col justify-center items-center gap-4 shadow-soft transition-border duration-300 border-[1.2px] border-transparent hover:border-text-primary hover:cursor-text"
           >
             <div ref={swingIconRef}>{Technology.techIcon()}</div>
             <h1 className="text-text-primary text-xl mt-4 font-bold">

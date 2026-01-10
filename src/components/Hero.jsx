@@ -51,13 +51,13 @@ const Hero = () => {
             ref={fadeIn}
             className="text-[1rem] flex flex-wrap bg-[var(--glass-bg)] text-[var(--text-secondary)] shadow-soft p-4"
           >
-            <li className="relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[5px] before:h-[5px] before:bg-[var(--text-secondary)] before:rounded-full">
+            <li className="relative pl-3 whitespace-nowrap before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[5px] before:h-[5px] before:bg-[var(--muted)] before:rounded-full">
               Student of Dr of Physical Therapy
             </li>
-            <li className="ml-3 relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[5px] before:h-[5px] before:bg-[var(--text-secondary)] before:rounded-full">
+            <li className="ml-3 relative pl-3 whitespace-nowrap before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[5px] before:h-[5px] before:bg-[var(--muted)] before:rounded-full">
               Web Devoloper
             </li>
-            <li className="ml-3 relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[5px] before:h-[5px] before:bg-[var(--text-secondary)] before:rounded-full">
+            <li className="ml-3 relative pl-3 whitespace-nowrap before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[5px] before:h-[5px] before:bg-[var(--muted)] before:rounded-full">
               Datacian
             </li>
           </ul>

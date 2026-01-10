@@ -60,9 +60,9 @@ const Resume = () => {
       icon: () => (
         <HistoryEduIcon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-text-secondary" />
       ),
-      date: "Nov 2025 - present",
-      Institue: "React Experience",
-      discipline: "Getting Ready to Discover Something New",
+      date: "Nov 2020 - present",
+      Institue: "Data Entry",
+      discipline: "Miccrosoft Excel, powerPoint & Word",
     },
   ];
 
@@ -73,9 +73,9 @@ const Resume = () => {
           className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-text-secondary"
         />
       ),
-      date: "2024",
-      Institue: "Data Entry",
-      discipline: "Miccrosoft Excel & Word",
+      date: "2024 - Present",
+      Institue: "Dr of Physical Therapy",
+      discipline: "Khyber Medical University Peshawar",
     },
     {
       icon: () => (

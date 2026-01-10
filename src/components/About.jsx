@@ -175,13 +175,13 @@ const About = () => {
             </button>
 
             <div className="flex flex-col sm:flex-row flex-wrap justify-between sm:justify-evenly mt-6 sm:mt-8 lg:mt-9 sm:gap-0">
-              <div className="w-full sm:w-2/5 text-text-secondary text-base sm:text-lg font-[500] leading-8 sm:leading-10">
+              <div className="w-full sm:w-3/5 whitespace-nowrap text-text-secondary text-base sm:text-lg font-[500] leading-8 sm:leading-10 pl-4">
                 <li>Website Development</li>
                 <li>Web Design</li>
                 <li>UI / UX Designing</li>
                 <li>Mobile & Web App Development</li>
               </div>
-              <div className="text-text-secondary text-base sm:text-lg font-[500] leading-8 sm:leading-10">
+              <div className="text-text-secondary text-base sm:text-lg font-[500] leading-8 sm:leading-10 pl-4">
                 <li>Data Entry</li>
                 <li>Data Mining</li>
                 <li>Data Formatting</li>
